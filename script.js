@@ -1,6 +1,4 @@
-/* =================================
-   MOBILE MENU
-================================= */
+
 
 const menuBtn = document.getElementById("menuBtn");
 const navLinks = document.getElementById("navLinks");
@@ -11,10 +9,6 @@ menuBtn.addEventListener("click", function () {
 
 });
 
-
-/* =================================
-   CLOSE MENU AFTER CLICK
-================================= */
 
 const navItems = document.querySelectorAll(".nav-links a");
 
@@ -28,10 +22,6 @@ navItems.forEach(function (item) {
 
 });
 
-
-/* =================================
-   SCROLL REVEAL
-================================= */
 
 const sections = document.querySelectorAll(".section");
 
@@ -67,10 +57,6 @@ sections.forEach(function (section) {
 });
 
 
-/* =================================
-   NAVBAR ACTIVE LINK
-================================= */
-
 const allSections = document.querySelectorAll("header, section");
 
 const links = document.querySelectorAll(".nav-links a");
@@ -105,10 +91,6 @@ window.addEventListener("scroll", function () {
 
 });
 
-
-/* =================================
-   IMAGE FALLBACK
-================================= */
 
 const profileImage = document.querySelector(".profile-photo img");
 
